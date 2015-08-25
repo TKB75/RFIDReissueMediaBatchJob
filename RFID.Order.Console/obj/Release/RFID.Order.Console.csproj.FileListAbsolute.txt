@@ -1,0 +1,14 @@
+C:\POC Projects\RFIDProcessOrder\RFID.Order.Console\bin\Release\RFID.Order.Console.exe.config
+C:\POC Projects\RFIDProcessOrder\RFID.Order.Console\bin\Release\RFID.Order.Console.exe
+C:\POC Projects\RFIDProcessOrder\RFID.Order.Console\bin\Release\RFID.Order.Console.pdb
+C:\POC Projects\RFIDProcessOrder\RFID.Order.Console\bin\Release\EntityFramework.dll
+C:\POC Projects\RFIDProcessOrder\RFID.Order.Console\bin\Release\EntityFramework.SqlServer.dll
+C:\POC Projects\RFIDProcessOrder\RFID.Order.Console\bin\Release\RFID.Order.DataModel.dll
+C:\POC Projects\RFIDProcessOrder\RFID.Order.Console\bin\Release\RFID.Order.Service.dll
+C:\POC Projects\RFIDProcessOrder\RFID.Order.Console\bin\Release\RFID.Order.DataModel.pdb
+C:\POC Projects\RFIDProcessOrder\RFID.Order.Console\bin\Release\RFID.Order.Service.pdb
+C:\POC Projects\RFIDProcessOrder\RFID.Order.Console\bin\Release\EntityFramework.xml
+C:\POC Projects\RFIDProcessOrder\RFID.Order.Console\bin\Release\EntityFramework.SqlServer.xml
+C:\POC Projects\RFIDProcessOrder\RFID.Order.Console\obj\Release\RFID.Order.Console.csprojResolveAssemblyReference.cache
+C:\POC Projects\RFIDProcessOrder\RFID.Order.Console\obj\Release\RFID.Order.Console.exe
+C:\POC Projects\RFIDProcessOrder\RFID.Order.Console\obj\Release\RFID.Order.Console.pdb

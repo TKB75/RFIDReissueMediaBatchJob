@@ -1,0 +1,12 @@
+C:\POC Projects\RFIDProcessOrder\RFID.Order.Service\bin\Debug\RFID.Order.Service.dll.config
+C:\POC Projects\RFIDProcessOrder\RFID.Order.Service\bin\Debug\RFID.Order.Service.dll
+C:\POC Projects\RFIDProcessOrder\RFID.Order.Service\bin\Debug\RFID.Order.Service.pdb
+C:\POC Projects\RFIDProcessOrder\RFID.Order.Service\bin\Debug\EntityFramework.dll
+C:\POC Projects\RFIDProcessOrder\RFID.Order.Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\POC Projects\RFIDProcessOrder\RFID.Order.Service\bin\Debug\EntityFramework.xml
+C:\POC Projects\RFIDProcessOrder\RFID.Order.Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\POC Projects\RFIDProcessOrder\RFID.Order.Service\obj\Debug\RFID.Order.Service.csprojResolveAssemblyReference.cache
+C:\POC Projects\RFIDProcessOrder\RFID.Order.Service\obj\Debug\RFID.Order.Service.dll
+C:\POC Projects\RFIDProcessOrder\RFID.Order.Service\obj\Debug\RFID.Order.Service.pdb
+C:\POC Projects\RFIDProcessOrder\RFID.Order.Service\bin\Debug\RFID.Order.DataModel.dll
+C:\POC Projects\RFIDProcessOrder\RFID.Order.Service\bin\Debug\RFID.Order.DataModel.pdb

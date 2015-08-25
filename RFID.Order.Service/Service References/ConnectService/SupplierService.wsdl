@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.rtp.com/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://www.rtp.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.rtp.com/">
+      <s:element name="ProcessMessage">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xmlRequest" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ProcessMessageResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ProcessMessageResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="ProcessMessageSoapIn">
+    <wsdl:part name="parameters" element="tns:ProcessMessage" />
+  </wsdl:message>
+  <wsdl:message name="ProcessMessageSoapOut">
+    <wsdl:part name="parameters" element="tns:ProcessMessageResponse" />
+  </wsdl:message>
+  <wsdl:portType name="SupplierServiceSoap">
+    <wsdl:operation name="ProcessMessage">
+      <wsdl:input message="tns:ProcessMessageSoapIn" />
+      <wsdl:output message="tns:ProcessMessageSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="SupplierServiceSoap" type="tns:SupplierServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ProcessMessage">
+      <soap:operation soapAction="http://www.rtp.com/ProcessMessage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="SupplierServiceSoap12" type="tns:SupplierServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ProcessMessage">
+      <soap12:operation soapAction="http://www.rtp.com/ProcessMessage" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SupplierService">
+    <wsdl:port name="SupplierServiceSoap" binding="tns:SupplierServiceSoap">
+      <soap:address location="http://vm-ilab-rtp1wb.ilab.tst/RTPConnect/SupplierService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="SupplierServiceSoap12" binding="tns:SupplierServiceSoap12">
+      <soap12:address location="http://vm-ilab-rtp1wb.ilab.tst/RTPConnect/SupplierService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

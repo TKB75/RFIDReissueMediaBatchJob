@@ -1,0 +1,9 @@
+C:\POC Projects\RFIDProcessOrder\RFID.Order.DataModel\bin\Release\RFID.Order.DataModel.dll.config
+C:\POC Projects\RFIDProcessOrder\RFID.Order.DataModel\bin\Release\RFID.Order.DataModel.dll
+C:\POC Projects\RFIDProcessOrder\RFID.Order.DataModel\bin\Release\RFID.Order.DataModel.pdb
+C:\POC Projects\RFIDProcessOrder\RFID.Order.DataModel\bin\Release\EntityFramework.dll
+C:\POC Projects\RFIDProcessOrder\RFID.Order.DataModel\bin\Release\EntityFramework.SqlServer.dll
+C:\POC Projects\RFIDProcessOrder\RFID.Order.DataModel\bin\Release\EntityFramework.xml
+C:\POC Projects\RFIDProcessOrder\RFID.Order.DataModel\bin\Release\EntityFramework.SqlServer.xml
+C:\POC Projects\RFIDProcessOrder\RFID.Order.DataModel\obj\Release\RFID.Order.DataModel.dll
+C:\POC Projects\RFIDProcessOrder\RFID.Order.DataModel\obj\Release\RFID.Order.DataModel.pdb
